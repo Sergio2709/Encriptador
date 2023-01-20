@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #D8DFE8;
+}
+
+.box{
+    background: white;
+    padding: 20px;
+    margin: 2%;
+    border-radius: 20px;
+}
+
+.box h2 {
+    position: absolute;
+    top: 7%;
+    right: 20%;
+    font-size: 1.5em; 
+    font-weight: bold;
+    color: rgb(21, 21, 99);
+}
+
+#texto_vacio{
+    background: white;
+    width: 30%;
+    height: 80%;
+    margin: 20px;
+    display: block;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+    border-radius: 15px;
+    border: 1px solid rgb(21, 21, 99);
+}
+
+#texto_vacio img{
+    width: 70%;
+    margin: 0% 15%;
+}
+
+#texto_vacio h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#texto_vacio h6{
+    text-align: center;
+    font-size: 1rem;
+}
+
+#texto_salida{
+    width: auto;
+    margin: 15% 5% 5% 5%;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#texto_vacio button{
+    width: 80%;
+    height: 9%;
+    text-align: center;
+    margin: 0% 10% 10%;
+    font-size: 1.1rem;
+    background: white;
+    border: 1px solid rgb(21, 21, 99);
+    border-radius: 10px;
+    display: none;
+}
+
+#texto_vacio button:hover{
+    background: #D8DFE8;
+    transform: scale(1.05);
+}
+
+#texto_entrada{
+    width: 50%;
+    height: 65%;
+    margin: 20px;
+    display: block;
+    position: absolute;
+    top: 110px;
+    left: 100px;
+    background: #D8DFE8;
+    outline: none;
+    border: #D8DFE8;
+    font-size: 1.5rem;
+    font-family:'Montserrat', sans-serif;
+}
+
+#mensaje_error{
+    position: absolute;
+    top: 76%;
+    left: 15%;
+    width: 50%;
+    height: 8%;
+    font-size: 60%;
+    font-weight: bold;
+}
+
+#encriptar{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 20%;
+    height: 8%;
+    background: rgb(21, 21, 99);
+    border-radius: 10px;
+    border: rgb(21, 21, 99);
+    color: white;
+    font-size: 120%;
+}
+
+#encriptar:hover{
+    background: rgb(94, 94, 142);
+    transform: scale(1.05);
+}
+
+#encriptar:active{
+    background: rgb(21, 21, 99);
+    transform: scale(0.8);
+    transition: 1s;
+}
+
+#desencriptar{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    width: 20%;
+    height: 8%;
+    background: #D8DFE8;
+    border-radius: 10px;
+    border: 2px solid rgb(21, 21, 99);
+    color: rgb(21, 21, 99);
+    font-size: 120%;
+}
+
+#desencriptar:hover{
+    background: #abb6c6;
+    transform: scale(1.05);
+}
+
+#desencriptar:active{
+    background: #D8DFE8;
+    transform: scale(0.8);
+    transition: 1s;
+}
