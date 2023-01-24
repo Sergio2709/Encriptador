@@ -83,12 +83,14 @@ function copy() {
     textArea.remove();
 }
 
+//seleccionar caracteres------------------------------------------------------
 function caracteresValidos(string){
     var out = '';
     var filtro = 'abcdefghijklmnopqrstuvwxyz ';	
-    for (var i=0; i<string.length; i++)
+    for (var i=0; i<string.length; i++){
         if (filtro.indexOf(string.charAt(i)) != -1) {
 	        out += string.charAt(i);
         }
+    }
     return out;
 }
